@@ -207,8 +207,8 @@ span.bookmark-text {
     margin-top: -47px;
     display: inline;
     z-index: 1;
-    background-color: #023E8A;
-    box-shadow: inset -3px 0px 0px 0px #90e0ef, 9px 0px 0px 0px #023e8a;
+    background-color: #171695;
+    box-shadow: rgb(255 255 255 / 100%) -10px 0px, rgb(71 147 239 / 80%) -20px 0px, rgb(255 255 255 / 100%) -30px 0px, rgb(71 147 239 / 70%) -40px 0px, rgb(255 255 255 / 100%) -50px 0px, rgb(71 147 239 / 60%) -60px 0px, rgb(255 255 255 / 100%) -70px 0px, rgb(71 147 239 / 50%) -80px 0px, rgb(255 255 255 / 100%) -90px 0px, rgb(71 147 239 / 40%) -100px 0px, rgb(255 255 255 / 100%) -110px 0px, rgb(71 147 239 / 30%) -120px 0px, rgb(255 255 255 / 100%) -130px 0px, rgb(71 147 239 / 20%) -140px 0px;
 }
 
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
@@ -555,7 +555,6 @@ p.accordion-display-name {
 .proctored_exam_status .exam-timer .exam-button-turn-in-exam,
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     font-size: 1em;
-    line-height: 0em;
 }
 
 .course-index .accordion .course-navigation .button-chapter {
