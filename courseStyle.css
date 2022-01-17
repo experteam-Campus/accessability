@@ -132,26 +132,12 @@ a,
 .xblock .xblock h2 {
     font-size: 2.3em !important;
     font-family: 'Assistant', sans-serif;
-    padding: 6px 20px 6px 20px;
+    padding: 6px 20px 7px 20px;
     font-weight: 700;
-    color: #023E8A;
-    height: 80px;
-    padding-top: 15px;
-    display: inline;
+    color: white;
     position: relative;
     z-index: 1;
-}
-
-h2.hd.hd-2.unit-title:before {
-    /* border: 3.3px solid #90E0EF; */
-    position: absolute;
-    content: "";
-    width: 60%;
-    height: 100%;
-    top: 7px;
-    right: 0px;
-    z-index: -1;
-    background-color: #EAF9FC;
+    background: linear-gradient( 71deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
 }
 
 
@@ -163,13 +149,13 @@ h2.hd.hd-2.unit-title:before {
 }
 
 span.bookmark-text {
-    color: #00B4D8;
+    color: #4793EF;
 }
 
 .course-content .bookmark-button:before {
     content: "";
     font-family: FontAwesome;
-    color: #00B4D8;
+    color: #4793EF;
 }
 
 
@@ -307,7 +293,7 @@ span.bookmark-text {
     font-family: 'Assistant', sans-serif;
     padding: 6px 15px;
     font-weight: 700;
-    background-color: #00B4D8;
+    background-color: #4793EF;
     color: white;
     margin-top: -70px;
     border: 16px solid white;
@@ -328,7 +314,7 @@ span.bookmark-text {
     -ms-transform: rotate(10deg);
     transform: rotate( 4deg);
     z-index: -1;
-    background-color: #00B4D8;
+    background-color: #4793EF;
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
 } */
 
@@ -343,7 +329,7 @@ span.bookmark-text {
     transform: rotate( 2.5deg);
     z-index: 0;
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
-    border: 2px solid #00B4D8;
+    border: 2px solid #4793EF;
     border-radius: 7px;
 } */
 
@@ -402,7 +388,7 @@ body.view-in-course .static_tab_wrapper {
     margin: 0px -12px 0px;
     height: fit-content;
     display: flow-root;
-    border: 4px solid #00B4D8;
+    border: 4px solid #4793EF;
     margin-right: 20px;
 }
 
@@ -469,7 +455,7 @@ p.accordion-display-name:hover {
 .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label:hover,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label:hover,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label:hover {
-    border: 2px solid #00B4D8;
+    border: 2px solid #4793EF;
 }
 
 .xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
@@ -502,14 +488,14 @@ p.accordion-display-name:hover {
 
 .fa-caret-down:before {
     content: "\f0d7";
-    color: #00B4D8;
+    color: #4793EF;
     font-size: 1.4em;
     line-height: 0.8em;
 }
 
 .fa-caret-right:before {
     content: "\f0d9";
-    color: #00B4D8;
+    color: #4793EF;
     font-size: 1.4em;
     line-height: 0.8em;
 }
@@ -525,7 +511,7 @@ p.accordion-display-name:hover {
 .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
 .xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
 .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
-    border-bottom: 3px solid #00B4D8;
+    border-bottom: 3px solid #4793EF;
     padding-top: 0px !important;
 }
 
@@ -535,8 +521,8 @@ p.accordion-display-name:hover {
 .btn-brand,
 .modal .inner-wrapper form .submit input[type="submit"],
 .leanModal_box .inner-wrapper form .submit input[type="submit"] {
-    border-color: #00B4D8;
-    background: #00B4D8;
+    border-color: #4793EF;
+    background: #4793EF;
     color: #00517d;
 }
 
@@ -562,7 +548,7 @@ span.group-heading.active {
 }
 
 p.accordion-display-name {
-    color: #00B4D8;
+    color: #4793EF;
 }
 
 .btn-link,
@@ -588,7 +574,7 @@ p.accordion-display-name {
 
 .progress-barscrollIndicator {
     height: 10px;
-    background: #00B4D8;
+    background: #4793EF;
     width: 0%;
 }
 
@@ -627,7 +613,7 @@ p.accordion-display-name {
     -moz-animation: pulse 3s infinite;
     -o-animation: pulse 3s infinite;
     animation: pulse 3s infinite;
-    background-color: #00B4D8 !important;
+    background-color: #4793EF !important;
 }
 
 
@@ -688,8 +674,8 @@ p.accordion-display-name {
 }
 
 .xblock--drag-and-drop .btn-brand {
-    border-color: #00B4D8;
-    background: #00B4D8;
+    border-color: #4793EF;
+    background: #4793EF;
     color: #00517d;
 }
 
@@ -927,7 +913,7 @@ p.accordion-display-name {
 /* ETHIC RULES */
 
 .ethicRules {
-    border: 3.5px solid #00B4D8;
+    border: 3.5px solid #4793EF;
     padding: 20px;
 }
 
@@ -939,7 +925,7 @@ p.accordion-display-name {
 }
 
 .ethicRulesImgDiv {
-    background-color: #00B4D8;
+    background-color: #4793EF;
     border: 17px solid white;
     width: 13%;
     margin-top: -82px;
@@ -987,7 +973,7 @@ h5.exampleTitle {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip {
     text-align: right;
     margin-top: 1px;
-    background: #00B4D8 !important;
+    background: #4793EF !important;
     color: #fff;
     font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
     line-height: 1.41575em;
@@ -1006,7 +992,7 @@ h5.exampleTitle {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip::after {
     transform: rotate(45deg);
     left: 18px;
-    background: #00B4D8 !important;
+    background: #4793EF !important;
     content: " ";
     display: block;
     height: 10px;
