@@ -1,0 +1,1017 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+:root {
+    --regular-size: 18px;
+    font-family: 'Assistant', sans-serif;
+}
+
+#main,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+    color: black;
+}
+
+a,
+li,
+span,
+.wrapper-course-material .course-tabs li a,
+.wrapper-course-material .course-tabs li a:visited,
+.rtl .course-index .accordion .course-navigation .button-chapter .group-heading {
+    font-family: 'Assistant', sans-serif;
+}
+
+
+/* P PREFERENCES */
+
+.xmodule_display.xmodule_HtmlModule p {
+    margin-bottom: 1.416em;
+    font-size: 1.1em;
+    line-height: 1.6em !important;
+    color: #3c3c3c;
+}
+
+
+/*text color */
+
+.copy-lead a,
+.copy-large a,
+.copy-base a,
+.alert-copy a,
+.alert-copy-with-title a,
+.copy-meta a,
+.table caption a,
+.table-simplified caption a,
+.copy-micro a,
+.wrapper-footer footer#footer-openedx a,
+a,
+.link,
+.btn-link,
+.table-sortable .sortable .action-sort {
+    color: black;
+}
+
+
+/* course component - backgrounds and borders */
+
+.container>div {
+    border: none;
+}
+
+.course-index {
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+    border-left: none;
+}
+
+
+/* PADDING, MARGIN AND LINES BETWEEN COMPONENTS */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding: 0 0 17px;
+}
+
+.content-wrapper .page-header {
+    border-bottom: none;
+}
+
+
+/* SHADOW UNDER VIDEO COMPONENT */
+
+.xmodule_display.xmodule_VideoModule .video {
+    background: #f5f5f5;
+    display: block;
+    margin: 31px -12px 0px;
+    padding: 13px;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    background-color: #F7F7F7;
+}
+
+
+/*  TITLES */
+
+
+/* unit title */
+
+
+/* OLD */
+
+
+/* .h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 2em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+  
+    padding: 6px 20px 6px 20px;
+    font-weight: 700;
+    height: 60px;
+    color: #00517d;
+}
+ */
+
+
+/* NEW */
+
+.h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 2.3em !important;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 20px 6px 20px;
+    font-weight: 700;
+    color: #023E8A;
+    height: 80px;
+    padding-top: 15px;
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
+
+h2.hd.hd-2.unit-title:before {
+    /* border: 3.3px solid #90E0EF; */
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 100%;
+    top: 7px;
+    right: 0px;
+    z-index: -1;
+    background-color: #EAF9FC;
+}
+
+
+/* BOOKMARK */
+
+.course-content .bookmark-button-wrapper {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+span.bookmark-text {
+    color: #00B4D8;
+}
+
+.course-content .bookmark-button:before {
+    content: "";
+    font-family: FontAwesome;
+    color: #00B4D8;
+}
+
+
+/* MAIN TEXT HEADLINE */
+
+.maintextHeadline {
+    font-size: 1.9em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background-color: #023E8A;
+    height: 10px;
+    box-shadow: inset -3px 0px 0px 0px #90e0ef, 9px 0px 0px 0px #023e8a;
+}
+
+.maintextHeadline:before {
+    border: 3.3px solid #90E0EF;
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 130%;
+    top: -10px;
+    right: 0px;
+    z-index: -1;
+}
+
+
+/* VIDEO AND REGULAR TEXT HEADLINE */
+
+.wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-2 {
+    color: white;
+}
+
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2,
+.discussion-module-title {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 1px 14px 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background-color: #023E8A;
+    box-shadow: inset -3px 0px 0px 0px #90e0ef, 9px 0px 0px 0px #023e8a;
+}
+
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
+.discussion-module-title:before {
+    border: 3.3px solid #90E0EF;
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 130%;
+    top: -10px;
+    right: 0px;
+    z-index: -1;
+}
+
+.textHeadlineNoLine {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background-color: #023E8A;
+}
+
+.textHeadline {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: #023E8A;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background-color: white;
+}
+
+.textHeadline:before {
+    border: 3px solid #90E0EF;
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 130%;
+    top: -10px;
+    right: -5px;
+    z-index: -1;
+}
+
+
+/* PROBLEMS HEADLINES */
+
+
+/* OLD */
+
+
+/* .hd.hd-3 {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+
+    padding: 6px 14px;
+    font-weight: 700;
+    background-color: #00517d;
+    color: white;
+ 
+    margin-top: -47px;
+} */
+
+
+/* NEW */
+
+.hd.hd-3 {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 15px;
+    font-weight: 700;
+    background-color: #00B4D8;
+    color: white;
+    margin-top: -70px;
+    border: 16px solid white;
+    left: 64px;
+}
+
+
+/* .hd.hd-3:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 4deg);
+    z-index: -1;
+    background-color: #00B4D8;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+} */
+
+
+/* .hd.hd-3:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -2px;
+    left: 0px;
+    transform: rotate( 2.5deg);
+    z-index: 0;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    border: 2px solid #00B4D8;
+    border-radius: 7px;
+} */
+
+
+/* cancel the little shadow on the left */
+
+body.view-in-course .course-wrapper,
+body.view-in-course .profile-wrapper,
+body.view-in-course .instructor-dashboard-wrapper-2,
+body.view-in-course .wiki-wrapper,
+body.view-in-course .teams-wrapper,
+body.view-in-course .static_tab_wrapper {
+    box-shadow: none;
+}
+
+
+/* HTML TEXT DIV */
+
+.textDiv {
+    margin: 28px 10px 50px 10px;
+}
+
+
+/* CENTER EVERY IMG INSIDE textDiv */
+
+.textDiv img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.textDiv img.imgRight {
+    display: block;
+    margin-left: auto !important;
+}
+
+.textDiv img.imgLeft {
+    display: block;
+    margin-right: auto !important;
+}
+
+
+/* cancel the line above the content */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    padding: 0 0 15px;
+}
+
+.problems-wrapper {
+    padding: 3%;
+    position: relative;
+    z-index: 1;
+    margin: 0px -12px 0px;
+    height: fit-content;
+    display: flow-root;
+    border: 4px solid #00B4D8;
+    margin-right: 20px;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+p.accordion-display-name:hover {
+    color: #023E8A;
+}
+
+
+/* problem lables design */
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    padding: 10px;
+    padding-right: 44px;
+    position: relative;
+    font-size: 1em;
+    line-height: normal;
+    cursor: pointer;
+    width: 100%;
+}
+
+.vert-mod .vert.vert-1:nth-child(odd) .xblock.xblock-student_view.xblock-student_view-problem.xmodule_display.xmodule_CapaModule.xblock-initialized .problems-wrapper:before {
+    position: absolute;
+    content: "";
+    /* display: block; */
+    width: 99%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    /* box-shadow: -50px 120px 4px 10px #555; */
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: -1;
+    background-color: #F7F7F7;
+}
+
+.problem-group-label {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+/* problems color in studio */
+
+.wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-3 {
+    margin-bottom: 10px;
+    font-size: 1.35em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: white;
+}
+
+
+/* LABELS DESIGN */
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label:hover,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label:hover {
+    border: 2px solid #00B4D8;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    background-color: #CAF0F8;
+    color: #023E8A;
+    font-weight: 600;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label {
+    border: 2px solid #CAF0F8;
+}
+
+
+/* DISCUSSION TOPIC */
+
+.discussion-module .inline-discussion-topic {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+/* COLORS */
+
+
+/* RIGHT MENU */
+
+.fa-caret-down:before {
+    content: "\f0d7";
+    color: #00B4D8;
+    font-size: 1.4em;
+    line-height: 0.8em;
+}
+
+.fa-caret-right:before {
+    content: "\f0d9";
+    color: #00B4D8;
+    font-size: 1.4em;
+    line-height: 0.8em;
+}
+
+
+/* TOP MENU */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-bottom: 3px solid #00B4D8;
+    padding-top: 0px !important;
+}
+
+
+/* PROBLEMS BUTTON */
+
+.btn-brand,
+.modal .inner-wrapper form .submit input[type="submit"],
+.leanModal_box .inner-wrapper form .submit input[type="submit"] {
+    border-color: #00B4D8;
+    background: #00B4D8;
+    color: #00517d;
+}
+
+
+/* RIGHT MENU */
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    position: relative;
+    display: block;
+    padding: 18px 10px 1px 10px;
+    border-radius: 5px;
+    font-family: 'Assistant', sans-serif;
+    color: #023E8A;
+    background-color: white !important;
+}
+
+
+/* RIGHT MENU */
+
+span.group-heading.active {
+    background-color: #EAF9FC;
+    color: #023E8A !important;
+}
+
+p.accordion-display-name {
+    color: #00B4D8;
+}
+
+.btn-link,
+.proctored_exam_status .exam-timer .exam-button-turn-in-exam,
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    font-size: 1em;
+    line-height: 0em;
+}
+
+.course-index .accordion .course-navigation .button-chapter {
+    box-shadow: none !important;
+    background-color: white !important;
+}
+
+.scrollIndicator {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    z-index: 100 !important;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.progress-barscrollIndicator {
+    height: 10px;
+    background: #00B4D8;
+    width: 0%;
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
+    color: #023E8A !important;
+    font-weight: 900;
+}
+
+.menu-item.active:before {
+    content: "\279C";
+    color: #023E8A;
+    font-size: 1.4em;
+    line-height: 0.8em;
+    float: right;
+    position: relative;
+    left: 19px;
+    top: 11px;
+    transform: rotateZ( -180deg);
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu {
+    display: none;
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+
+/*NEXT BUTTON ANIMATION*/
+
+.sequence-nav-button.button-next {
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    -webkit-animation-delay: 3s;
+    -webkit-animation: pulse 4s infinite;
+    -moz-animation: pulse 3s infinite;
+    -o-animation: pulse 3s infinite;
+    animation: pulse 3s infinite;
+    background-color: #00B4D8 !important;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    40% {
+        box-shadow: 0 0 0 0 rgba(0, 180, 216, 0.863);
+    }
+    70% {
+        box-shadow: 0 0 0 8px #e7ea2400;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    30% {
+        box-shadow: 0 0 0 0 rgba(0, 180, 216, 0.849);
+    }
+    70% {
+        box-shadow: 0 0 0 8px #eae72400;
+    }
+}
+
+
+/* DRAG AND DROP */
+
+.xblock--drag-and-drop {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.xblock--drag-and-drop .drag-container .option {
+    padding: 0px !important;
+}
+
+.xblock--drag-and-drop .drag-container .option.specified-width img {
+    width: 90%;
+}
+
+.course-wrapper .course-content .xblock,
+.course-wrapper .courseware-results-wrapper .xblock {
+    overflow-wrap: inherit;
+    word-wrap: inherit;
+    word-break: inherit;
+}
+
+.xblock--drag-and-drop .btn-brand {
+    border-color: #00B4D8;
+    background: #00B4D8;
+    color: #00517d;
+}
+
+
+/* TABLES */
+
+.xmodule_display.xmodule_HtmlModule table td,
+.xmodule_display.xmodule_HtmlModule table th {
+    margin: 20px 0;
+    padding: 9px;
+    border: 1px solid #c8c8c8;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+
+/*top navigation*/
+
+
+/* every number is the icon number */
+
+
+/* problem icon | text icon | video icon - the number refers to the li */
+
+
+/* 1 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum1_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 2 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum2_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 3 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum3_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 4 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum4_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 5 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum5_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 6 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum6_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 7 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum7_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 8 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum8_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 9  */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum9_1.svg');
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* FEEDBACK */
+
+
+/* CORRECT ANSWER */
+
+.trueAns {
+    border: 2px solid #49DA4D;
+    border-radius: 12px;
+    background-color: #62de6657;
+    width: 77%;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+}
+
+.trueAnsImg {
+    width: 13%;
+    position: relative;
+    float: right;
+    bottom: 52px;
+    margin-right: -61px;
+    margin-left: 20px;
+}
+
+
+/* INCORRECT ANSWER */
+
+.falseAns {
+    border: 2px solid #FF3F3E;
+    background-color: #EAF9FC;
+    width: 77%;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+}
+
+.falseAnsImg {
+    width: 13%;
+    position: relative;
+    float: right;
+    bottom: 52px;
+    margin-right: -61px;
+    margin-left: 20px;
+}
+
+.trueAns ol li,
+.falseAns ol li {
+    margin-right: 25px;
+}
+
+.trueAns p,
+.falseAns p {
+    margin-right: 30px;
+}
+
+
+/* TO DO LIST */
+
+.toDoListDiv {
+    padding: 25px 10px 10px 10px;
+    margin-bottom: 40px;
+    margin-top: -40px;
+    margin-right: -20px;
+    background: #fff;
+    border: solid #142654;
+    border-color: #142654;
+}
+
+.box2 {
+    width: 90%;
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+}
+
+.toDoListDiv img {
+    float: right;
+    margin-left: 10px;
+    width: 7%;
+}
+
+.boxinner {
+    margin: 17px;
+    transform: rotate(2deg);
+    padding-bottom: 5px;
+}
+
+.boxinner hr {
+    margin: 17px 65px;
+}
+
+
+/* ETHIC RULES */
+
+.ethicRules {
+    border: 3.5px solid #00B4D8;
+    padding: 20px;
+}
+
+.textHeadlineNoLine2 {
+    background-color: #CAF0F8;
+    color: #023E8A;
+    margin: -8px 31px !important;
+    display: inline-block;
+}
+
+.ethicRulesImgDiv {
+    background-color: #00B4D8;
+    border: 17px solid white;
+    width: 13%;
+    margin-top: -82px;
+    margin-right: -68px;
+    padding: 4px;
+}
+
+.ethicRulesImg {
+    width: 100%;
+    margin: 0 auto !important;
+}
+
+.ethicRulesText {
+    color: #023E8A !important;
+    margin: 21px 35px 4px 20px !important;
+    font-size: 1.5em !important;
+}
+
+.exampleText {
+    background-color: #EAF9FC;
+    color: #023E8A !important;
+    margin: -15px 35px 4px 20px !important;
+    padding: 12px 12px !important;
+}
+
+h5.exampleTitle {
+    font-weight: 700 !important;
+    color: #023E8A !important;
+    font-size: 1.8em !important;
+    margin: 9px 44px -8px 28px !important;
+    display: inline-block !important;
+}
+
+
+/* DIV FOR MAKING 80PX MARGIN */
+
+.bigmarginDiv {
+    width: 100%;
+    height: 75px;
+}
+
+
+/* UNIT TOOLTIP TOP MENU */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip {
+    text-align: right;
+    margin-top: 1px;
+    background: #00B4D8 !important;
+    color: #fff;
+    font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
+    line-height: 1.41575em;
+    right: 0;
+    padding: 6px;
+    position: absolute;
+    top: -43px;
+    text-shadow: none;
+    white-space: pre;
+    pointer-events: none;
+}
+
+
+/* BOOKMARK ARROW */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip::after {
+    transform: rotate(45deg);
+    left: 18px;
+    background: #00B4D8 !important;
+    content: " ";
+    display: block;
+    height: 10px;
+    right: 18px;
+    position: absolute;
+    top: 29px;
+    width: 10px;
+}
