@@ -553,8 +553,8 @@ p.accordion-display-name:hover {
 /* RIGHT MENU */
 
 span.group-heading.active {
-    background-color: #EAF9FC;
-    color: #023E8A !important;
+    background-color: #DAE9FC;
+    color: #171695!important;
 }
 
 p.accordion-display-name {
@@ -591,19 +591,19 @@ p.accordion-display-name {
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
-    color: #023E8A !important;
+    color: #171695!important;
     font-weight: 900;
 }
 
 .menu-item.active:before {
     content: "\279C";
-    color: #023E8A;
+    color: #4793EF;
     font-size: 1.4em;
     line-height: 0.8em;
     float: right;
     position: relative;
-    left: 19px;
-    top: 11px;
+    left: 20px;
+    top: 13px;
     transform: rotateZ( -180deg);
 }
 
@@ -1012,4 +1012,41 @@ h5.exampleTitle {
     position: absolute;
     top: 29px;
     width: 10px;
+}
+
+
+/* ACCORDION */
+
+.accordionDiv1 {
+    text-align: justify;
+    padding: 7px;
+    margin: 5px auto;
+    font-family: assistant;
+    line-height: 20px;
+    transition: 0.6s ease-in-out;
+    background: linear-gradient( 71deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
+}
+
+.accordionDiv2 {
+    cursor: pointer;
+    text-align: justify;
+    background-color: #ffffff;
+    padding: 11px 25px;
+    font-family: assistant;
+    line-height: 35px;
+    transition: 0.6s ease-in-out;
+}
+
+.accordionTitle {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #171695;
+    font-family: assistant;
+}
+
+.accordionP {
+    line-height: 1.8;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
 }
