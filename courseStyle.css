@@ -164,30 +164,32 @@ span.bookmark-text {
 /* MAIN TEXT HEADLINE */
 
 .maintextHeadline {
+    height: 100% !important;
     font-size: 1.9em !important;
     position: relative;
-    width: fit-content;
+    width: 36% !important;
     font-family: 'Assistant', sans-serif;
     padding: 6px 14px;
+    padding-bottom: 20px;
     font-weight: 700 !important;
     color: white;
     margin-top: -47px;
-    display: inline;
-    z-index: 1;
-    background-color: #023E8A;
-    height: 10px;
-    box-shadow: inset -3px 0px 0px 0px #90e0ef, 9px 0px 0px 0px #023e8a;
+    display: block;
+    z-index: 0;
+    background: linear-gradient(0deg, rgba(71, 147, 239, 1) 0%, rgba(52, 96, 202, 1) 20%, rgba(41, 68, 182, 1) 40%, rgba(32, 45, 165, 1) 61%, rgba(23, 22, 149, 1) 100%);
 }
 
 .maintextHeadline:before {
-    border: 3.3px solid #90E0EF;
+    background: white;
     position: absolute;
     content: "";
-    width: 50%;
-    height: 130%;
-    top: -10px;
-    right: 0px;
-    z-index: -1;
+    z-index: 0;
+    position: absolute;
+    content: "";
+    width: 22%;
+    height: 7%;
+    top: 50px;
+    right: 14px;
 }
 
 
@@ -210,7 +212,7 @@ span.bookmark-text {
     display: inline;
     z-index: 1;
     background-color: #171695;
-    box-shadow: rgb(23 22 149 / 40%) -5px 0px, rgb(23 22 149 / 35%) -10px 0px, rgb(23 22 149 / 30%) -15px 0px, rgb(23 22 149 / 25%) -20px 0px, rgb(23 22 149 / 20%) -25px 0px, rgb(23 22 149 / 15%) -30px 0px;
+    box-shadow: rgb(255 255 255) -5px 0px, rgb(23 22 149 / 80%) -10px 0px, rgb(255 255 255) -15px 0px, rgb(23 22 149 / 70%) -20px 0px, rgb(255 255 255) -25px 0px, rgb(23 22 149 / 60%) -30px 0px, rgb(255 255 255) -35px 0px, rgb(23 22 149 / 50%) -40px 0px, rgb(255 255 255) -45px 0px, rgb(23 22 149 / 40%) -50px 0px, rgb(255 255 255) -55px 0px, rgb(23 22 149 / 30%) -60px 0px, rgb(255 255 255) -65px 0px, rgb(23 22 149 / 20%) -70px 0px, rgb(255 255 255) -75px 0px, rgb(23 22 149 / 10%) -80px 0px;
 }
 
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
@@ -236,7 +238,7 @@ span.bookmark-text {
     margin-top: -47px;
     display: inline;
     z-index: 1;
-    background-color: #023E8A;
+    background-color: #171695;
 }
 
 .textHeadline {
@@ -244,24 +246,24 @@ span.bookmark-text {
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    padding: 6px 14px;
+    padding: 6px 0px;
     font-weight: 700 !important;
-    color: #023E8A;
+    color: #404040;
     margin-top: -47px;
     display: inline;
     z-index: 1;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .textHeadline:before {
-    border: 3px solid #90E0EF;
     position: absolute;
     content: "";
-    width: 50%;
-    height: 130%;
-    top: -10px;
-    right: -5px;
+    width: 22%;
+    height: 10%;
+    top: 49px;
+    right: 0px;
     z-index: -1;
+    background: linear-gradient(90deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
 }
 
 
