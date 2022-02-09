@@ -1050,3 +1050,34 @@ h5.exampleTitle {
     margin-top: 0pt;
     margin-bottom: 0pt;
 }
+
+
+/* POLL */
+
+.poll-header {
+    text-transform: uppercase;
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 15px;
+    font-weight: 700;
+    background-color: #4793EF;
+    color: white;
+    margin-top: -5px px;
+    left: 64px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
+    background: linear-gradient( 71deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
+}
+
+.poll-block-form-wrapper {
+    display: none;
+    padding: 3%;
+    position: relative;
+    z-index: 1;
+    margin: 0px -12px 0px;
+    height: fit-content;
+    display: flow-root;
+    margin-right: 20px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+}
