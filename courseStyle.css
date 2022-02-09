@@ -838,7 +838,7 @@ p.accordion-display-name {
 .trueAns {
     border: 2px solid #49DA4D;
     border-radius: 12px;
-    background-color: #62de6657;
+    background-color: #62de8814;
     width: 77%;
     padding: 20px;
     margin-right: 30px;
@@ -859,7 +859,7 @@ p.accordion-display-name {
 
 .falseAns {
     border: 2px solid #FF3F3E;
-    background-color: #EAF9FC;
+    background-color: rgb(0 0 0 / 5%);
     width: 77%;
     padding: 20px;
     margin-right: 30px;
