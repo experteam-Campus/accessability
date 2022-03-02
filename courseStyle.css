@@ -1088,13 +1088,12 @@ h5.exampleTitle {
     display: block;
 }
 
-details:after {
+details:before {
     content: "\279C";
-    left: 0px;
+    left: 52px;
     color: #4793EF;
     float: left;
-    top: -28px;
-    position: relative;
+    position: absolute;
     transform: scale(2.5) rotateZ( -180deg);
 }
 
