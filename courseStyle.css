@@ -1088,12 +1088,24 @@ h5.exampleTitle {
     display: block;
 }
 
-.fa-caret-left:before {
-    content: "\f0d9";
-    font-style: normal;
-    position: absolute;
-    left: 64px;
-    top: 106px;
+details:after {
+    content: "\279C";
+    left: 0px;
     color: #4793EF;
-    transform: scale(2);
+    float: left;
+    top: -28px;
+    position: relative;
+    transform: scale(2.5) rotateZ( -180deg);
+}
+
+
+/* HIDE TOP NAV VISABILITY */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav {
+    margin: 0 0 20px 0;
+    position: relative;
+    border-bottom: none;
+    z-index: 0;
+    height: 44px;
+    display: none;
 }
