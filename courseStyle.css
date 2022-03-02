@@ -1087,3 +1087,13 @@ h5.exampleTitle {
     margin-right: 15px;
     display: block;
 }
+
+.fa-caret-left:before {
+    content: "\f0d9";
+    font-style: normal;
+    position: absolute;
+    left: 64px;
+    top: 106px;
+    color: #4793EF;
+    transform: scale(2);
+}
