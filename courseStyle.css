@@ -1108,3 +1108,95 @@ details:before {
     height: 44px;
     display: none;
 }
+
+
+/* QUESTIONS CHOOS COLOR CHANGE */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:focus+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicetextgroup input:focus+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicegroup input:focus+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicetextgroup input:focus+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:hover+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicetextgroup input:hover+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicegroup input:hover+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicetextgroup input:hover+label {
+    background-color: #DAE9FC;
+    border: 2px solid #4793EF;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:checked+label {
+    background-color: #DAE9FC;
+    border: 2px solid #4793EF;
+}
+
+
+/* QUESTION LABELS PADDING */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label {
+    padding-right: 50px;
+}
+
+
+/* QUESTION SEND, SAVE & VIEW ANSWER BUTTONS */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action {
+    min-height: 20px;
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn {
+    margin-left: 4px;
+    max-width: 110px;
+    text-decoration: none;
+    text-transform: none;
+    border: 1px solid;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submission-feedback {
+    display: block;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submit-attempt-container .submit {
+    margin-left: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    float: none;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-buttons-wrapper {
+    display: inline-block;
+    justify-content: flex-end;
+    width: unset;
+    padding-bottom: 20px;
+    float: left !important;
+}
+
+.xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default:hover {
+    background: #4793EF;
+}
+
+
+/*  PEVIOUS NEXT BUTTON */
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
+    color: #171695 !important;
+    border-bottom: none;
+    border: 1px #171695 solid;
+}
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
+    color: #171695!important;
+    border: 1px #171695 solid;
+}
+
+
+/* BOOKMARK */
+
+.course-content .bookmark-button-wrapper {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
