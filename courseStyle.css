@@ -1200,3 +1200,14 @@ details:before {
     margin-bottom: 10px;
     margin-top: 30px;
 }
+
+.page-header {
+    padding: 6px 20px 1px 20px;
+}
+
+
+/* BREADCRUMPS */
+
+body .breadcrumbs .nav-item a {
+    color: #171695 !important;
+}
