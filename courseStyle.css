@@ -1250,3 +1250,14 @@ details:before {
 body .breadcrumbs .nav-item a {
     color: #171695 !important;
 }
+
+
+/* Fix subtitles rtl */
+.xmodule_display.xmodule_VideoBlock .video .subtitles .subtitles-menu {
+    direction: ltr;
+}
+
+.xmodule_display.xmodule_VideoBlock .video .video-wrapper .closed-captions.is-visible {
+    color: #ffffff;
+    direction: ltr;
+}
