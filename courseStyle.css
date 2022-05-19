@@ -15,10 +15,11 @@ h4,
 h5,
 h6,
 p,
+ol, 
 label {
     text-align: right;
     font-family: 'Assistant', sans-serif;
-    color: #404040;
+    color: #404040 !important;
 }
 
 a,
@@ -140,12 +141,12 @@ a,
     font-family: 'Assistant', sans-serif;
     padding: 6px 20px 7px 20px;
     font-weight: 700;
-    color: rgb(255 255 255);
+    color: rgb(255 255 255) !important;
     position: relative;
     z-index: 1;
     display: inline;
     background: linear-gradient( 71deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
-    box-shadow: rgb(255 255 255 / 100%) -10px 0px, rgb(71 147 239 / 80%) -20px 0px, rgb(255 255 255 / 100%) -30px 0px, rgb(71 147 239 / 70%) -40px 0px, rgb(255 255 255 / 100%) -50px 0px, rgb(71 147 239 / 60%) -60px 0px, rgb(255 255 255 / 100%) -70px 0px, rgb(71 147 239 / 50%) -80px 0px, rgb(255 255 255 / 100%) -90px 0px, rgb(71 147 239 / 40%) -100px 0px, rgb(255 255 255 / 100%) -110px 0px, rgb(71 147 239 / 30%) -120px 0px, rgb(255 255 255 / 100%) -130px 0px, rgb(71 147 239 / 20%) -140px 0px;
+    box-shadow: rgb(255 255 255 / 100%) -10px 0px, rgb(20 114 230 / 80%) -20px 0px, rgb(255 255 255 / 100%) -30px 0px, rgb(20 114 230 / 70%) -40px 0px, rgb(255 255 255 / 100%) -50px 0px, rgb(20 114 230 / 60%) -60px 0px, rgb(255 255 255 / 100%) -70px 0px, rgb(20 114 230 / 50%) -80px 0px, rgb(255 255 255 / 100%) -90px 0px, rgb(20 114 230 / 40%) -100px 0px, rgb(255 255 255 / 100%) -110px 0px, rgb(20 114 230 / 30%) -120px 0px, rgb(255 255 255 / 100%) -130px 0px, rgb(20 114 230 / 20%) -140px 0px;
 }
 
 
@@ -157,13 +158,13 @@ a,
 }
 
 span.bookmark-text {
-    color: #4793EF;
+    color: #171695;
 }
 
 .course-content .bookmark-button:before {
     content: "";
     font-family: FontAwesome;
-    color: #4793EF;
+    color: #171695;
 }
 
 
@@ -178,7 +179,7 @@ span.bookmark-text {
     padding: 6px 14px;
     padding-bottom: 20px;
     font-weight: 700 !important;
-    color: white;
+    color: white !important;
     margin-top: -47px;
     display: block;
     z-index: 0;
@@ -254,7 +255,7 @@ span.bookmark-text {
     font-family: 'Assistant', sans-serif;
     padding: 6px 0px;
     font-weight: 700 !important;
-    color: #404040;
+    color: #404040 !important;
     margin-top: -47px;
     display: inline;
     z-index: 1;
@@ -414,8 +415,9 @@ p.accordion-display-name:hover {
 
 /* ACCORDION ARROW */
 ::marker {
-    color: #4793EF;
+    color: #C75300;
     font-size: x-large;
+    font-weight: 900;
 }
 
 /* problem lables design */
@@ -477,7 +479,7 @@ p.accordion-display-name:hover {
 
 .xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
     /* border: 2px solid; */
-    color: #404040;
+    color: #404040 !important;
     font-weight: 600;
     text-shadow: none;
 }
@@ -509,14 +511,14 @@ p.accordion-display-name:hover {
 
 .fa-caret-down:before {
     content: "\f0d7";
-    color: #4793EF;
+    color: #c75300;
     font-size: 1.4em;
     line-height: 0.8em;
 }
 
 .fa-caret-right:before {
     content: "\f0d9";
-    color: #4793EF;
+    color: #c75300;
     font-size: 1.4em;
     line-height: 0.8em;
 }
@@ -564,12 +566,14 @@ p.accordion-display-name:hover {
 /* RIGHT MENU */
 
 span.group-heading.active {
-    background-color: #DAE9FC;
-    color: #171695!important;
+    background-color: #f1f7ff;
+    color: #0f5297!important;
+    font-weight: 900 !important;
 }
 
 p.accordion-display-name {
-    color: #4793EF;
+    color: #0051b3;
+    /*color: #4793EF;*/
     line-break: inherit;
     /* height: 64px; */
 }
@@ -584,6 +588,7 @@ p.accordion-display-name {
 .course-index .accordion .course-navigation .button-chapter {
     box-shadow: none !important;
     background-color: white !important;
+    color: #171695 !important;
 }
 
 .scrollIndicator {
@@ -602,19 +607,20 @@ p.accordion-display-name {
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
-    color: #171695!important;
+    color: #004193!important;
     font-weight: 900;
 }
 
-.menu-item.active:before {
+/*.menu-item.active:before { */
+.menu-item.active a p:before {
     content: "\279C";
-    color: #4793EF;
-    font-size: 1.4em;
+    color: #004193;
+    font-size: 1.5em;
     line-height: 0.8em;
     float: right;
     position: relative;
-    left: 20px;
-    top: 13px;
+    left: 4px;
+    top: 2px;
     transform: rotateZ( -180deg);
 }
 
@@ -636,7 +642,7 @@ p.accordion-display-name {
     -moz-animation: pulse 3s infinite;
     -o-animation: pulse 3s infinite;
     animation: pulse 3s infinite;
-    background-color: #4793EF !important;
+    background-color: #DAE9FC !important;
 }
 
 
@@ -1251,6 +1257,12 @@ body .breadcrumbs .nav-item a {
     color: #171695 !important;
 }
 
+.fa-angle-right:before {
+    content: "\f105";
+    color: #c75300;
+    font-weight: 900;
+}
+
 /* Fix subtitles rtl */
 .xmodule_display.xmodule_VideoBlock .video .subtitles .subtitles-menu {
     direction: ltr;
@@ -1260,4 +1272,3 @@ body .breadcrumbs .nav-item a {
     color: #ffffff;
     direction: ltr;
 }
-
