@@ -183,7 +183,7 @@ span.bookmark-text {
     margin-top: -47px;
     display: block;
     z-index: 0;
-    background: linear-gradient(0deg, rgba(71, 147, 239, 1) 0%, rgba(52, 96, 202, 1) 20%, rgba(41, 68, 182, 1) 40%, rgba(32, 45, 165, 1) 61%, rgba(23, 22, 149, 1) 100%);
+    background: linear-gradient(0deg, rgba(20, 114, 230, 1) 0%, rgba(52, 96, 202, 1) 20%, rgba(41, 68, 182, 1) 40%, rgba(32, 45, 165, 1) 61%, rgba(23, 22, 149, 1) 100%);
 }
 
 .maintextHeadline:before {
@@ -270,7 +270,7 @@ span.bookmark-text {
     top: 49px;
     right: 0px;
     z-index: -1;
-    background: linear-gradient(90deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
+    background: linear-gradient(90deg, rgba(20, 114, 230, 1) 0%, rgba(23, 22, 149, 1) 100%);
 }
 
 
@@ -309,7 +309,7 @@ span.bookmark-text {
     margin-top: -5px;
     left: 64px;
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
-    background: linear-gradient( 71deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
+    background: linear-gradient( 71deg, rgba(20, 114, 230, 1) 0%, rgba(23, 22, 149, 1) 100%);
 }
 
 
@@ -1051,7 +1051,7 @@ h5.exampleTitle {
     font-family: assistant;
     line-height: 20px;
     transition: 0.6s ease-in-out;
-    background: linear-gradient( 71deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
+    background: linear-gradient( 71deg, rgba(20, 114, 230, 1) 0%, rgba(23, 22, 149, 1) 100%);
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
@@ -1095,7 +1095,7 @@ h5.exampleTitle {
     margin-top: -5px px;
     left: 64px;
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
-    background: linear-gradient( 71deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
+    background: linear-gradient( 71deg, rgba(20, 114, 230, 1) 0%, rgba(23, 22, 149, 1) 100%);
 }
 
 .poll-block-form-wrapper {
