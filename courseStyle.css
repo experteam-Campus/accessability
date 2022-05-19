@@ -572,7 +572,7 @@ span.group-heading.active {
 }
 
 p.accordion-display-name {
-    color: #0051b3;
+    color: #0f5297 !important;
     /*color: #4793EF;*/
     line-break: inherit;
     /* height: 64px; */
