@@ -145,7 +145,7 @@ a,
     position: relative;
     z-index: 1;
     display: inline;
-    background: linear-gradient( 71deg, rgba(71, 147, 239, 1) 0%, rgba(23, 22, 149, 1) 100%);
+    background: linear-gradient( 71deg, rgba(20, 114, 230, 1) 0%, rgba(3, 3, 112, 1) 100%);
     box-shadow: rgb(255 255 255 / 100%) -10px 0px, rgb(20 114 230 / 80%) -20px 0px, rgb(255 255 255 / 100%) -30px 0px, rgb(20 114 230 / 70%) -40px 0px, rgb(255 255 255 / 100%) -50px 0px, rgb(20 114 230 / 60%) -60px 0px, rgb(255 255 255 / 100%) -70px 0px, rgb(20 114 230 / 50%) -80px 0px, rgb(255 255 255 / 100%) -90px 0px, rgb(20 114 230 / 40%) -100px 0px, rgb(255 255 255 / 100%) -110px 0px, rgb(20 114 230 / 30%) -120px 0px, rgb(255 255 255 / 100%) -130px 0px, rgb(20 114 230 / 20%) -140px 0px;
 }
 
@@ -164,7 +164,7 @@ span.bookmark-text {
 .course-content .bookmark-button:before {
     content: "";
     font-family: FontAwesome;
-    color: #171695;
+    color: #C75300;
 }
 
 
@@ -607,14 +607,14 @@ p.accordion-display-name {
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
-    color: #004193!important;
+    color: #C75300!important;
     font-weight: 900;
 }
 
 /*.menu-item.active:before { */
 .menu-item.active a p:before {
     content: "\279C";
-    color: #004193;
+    color: #C75300;
     font-size: 1.5em;
     line-height: 0.8em;
     float: right;
