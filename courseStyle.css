@@ -591,6 +591,11 @@ p.accordion-display-name {
     color: #171695 !important;
 }
 
+body .course-index .accordion .course-navigation .button-chapter.active .group-heading {
+    color: #171695;
+    font-weight: 900;
+}
+
 .scrollIndicator {
     position: fixed !important;
     top: 0;
