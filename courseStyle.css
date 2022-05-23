@@ -19,7 +19,7 @@ ol,
 label {
     text-align: right;
     font-family: 'Assistant', sans-serif;
-    color: #404040 !important;
+    color: #404040;
 }
 
 a,
@@ -40,11 +40,12 @@ span,
 
 /* P PREFERENCES */
 
+.xmodule_display.xmodule_HtmlBlock p,
 .xmodule_display.xmodule_HtmlModule p {
     margin-bottom: 1.416em;
     font-size: 1.1em;
     line-height: 1.6em !important;
-    color: #3c3c3c;
+    color: #404040 !important;
 }
 
 
@@ -214,7 +215,7 @@ span.bookmark-text {
     font-family: 'Assistant', sans-serif;
     padding: 1px 14px 6px 14px;
     font-weight: 700 !important;
-    color: white;
+    color: white !important;
     margin-top: -47px;
     display: inline;
     z-index: 1;
@@ -1096,7 +1097,7 @@ h5.exampleTitle {
     padding: 6px 15px;
     font-weight: 700;
     background-color: #4793EF;
-    color: white;
+    color: white !important;
     margin-top: -5px px;
     left: 64px;
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
@@ -1134,7 +1135,7 @@ h5.exampleTitle {
     display: block;
 }
 
-details:before {
+summary:before {
     content: "\279C";
     left: 64px;
     color: #4793EF;
