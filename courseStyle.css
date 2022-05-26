@@ -1057,7 +1057,8 @@ h5.exampleTitle {
     font-family: assistant;
     line-height: 20px;
     transition: 0.6s ease-in-out;
-    background: linear-gradient( 71deg, rgba(20, 114, 230, 1) 0%, rgba(23, 22, 149, 1) 100%);
+    /* background: linear-gradient( 71deg, rgba(20, 114, 230, 1) 0%, rgba(23, 22, 149, 1) 100%); */
+    background: linear-gradient( 317deg, rgba(20, 114, 230, 1) 60%, rgba(199, 83, 0, 1) 80%);
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
@@ -1099,7 +1100,7 @@ h5.exampleTitle {
     background-color: #4793EF;
     color: white !important;
     margin-top: -5px px;
-    left: 64px;
+    left: 46px;
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 7px;
     background: linear-gradient( 71deg, rgba(20, 114, 230, 1) 0%, rgba(23, 22, 149, 1) 100%);
 }
@@ -1135,14 +1136,30 @@ h5.exampleTitle {
     display: block;
 }
 
-summary:before {
+.poll-feedback {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.poll-results-wrapper hr {
+    margin: -0.4em 0;
+    padding: 0;
+    position: absolute;
+    content: "";
+    width: 22%;
+    height: 1%;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(20, 114, 230, 1) 0%, rgba(23, 22, 149, 1) 100%);
+}
+
+/*summary:before {
     content: "\279C";
     left: 64px;
     color: #4793EF;
     float: left;
     position: absolute;
     transform: scale(2.4) rotateZ( -180deg);
-}
+}*/
 
 /* HIDE THE RESULTS AND FEEDBACK TITLES */
 .poll-results-wrapper .poll-header {
