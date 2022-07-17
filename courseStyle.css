@@ -69,7 +69,7 @@ a,
 }
 
 .problem-progress {
-    display: none;
+    display: none !important;
 }
 
 /* course component - backgrounds and borders */
